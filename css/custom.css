@@ -1,0 +1,128 @@
+body{
+	margin:0;
+	padding:0;
+
+}
+@keyframes body_load_opacity{from{opacity:.4} to{opacity:1}}
+body{
+animation: body_load_opacity 2s;
+font-family: Arial, Helvetica, san-serif;
+}
+#nav{
+    border-bottom:3px solid azure;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.19);
+    margin-bottom: 20px;
+
+}
+.navbar-brand{
+    margin-left:20px;
+    border:aliceblue 2px solid;
+}
+.col{
+    border-top:3px solid azure;
+    box-shadow: 0px 0px 4px  0px rgba(0,0,0,.2),0px 0px 6px 0px  rgba(0,0,0,.19);
+    
+}
+.search{
+	display:flex;
+}
+#search-container{
+	width:400px;
+
+
+}
+#search{
+	height:60px;
+	width:80%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border:1px solid white;
+	box-shadow: 2px 4px 8px 3px  rgba(0,0,0,.10), 4px 6px 10px 6px rgba(0,0,0,.08);
+	font-size:20px;
+
+
+
+}
+#search-container i{
+	padding:9px;
+	color:rgba(0,0,0,.4);
+	font-size:15px;
+}
+.bg-image{
+	background-image:url("../images/fabrizio-verrecchia-180315-unsplash.jpg");
+	background-size:cover;
+	padding:0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+	box-shadow: 0 0 2px rbga(0,0,0,.2);
+}
+.box{
+	border-top-left-radius: 5px;
+	box-shadow: 0 0 2px rbga(0,0,0,.2);
+}
+input[type="email"],input[type="text"],input[type="password"],input[type="telephone"],input[type="search"]{
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:2px green solid;
+}
+input[type="text"]:focus {
+ border-top:0;
+border-left:0;
+border-right:0;
+border-bottom:2px green solid;
+  outline: 0;
+ 
+  height: 30px;
+}
+input[type="email"]:focus {
+ border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:2px green solid;
+  outline:0;
+  height: 30px;
+}
+input[type=password]:focus {
+ border-top:0;
+border-left:0;
+border-right:0;
+	border-bottom:2px green solid;
+  outline: 0;
+ 
+  height: 30px;
+}
+input[type=telephone]:focus {
+ border-top:0;
+border-left:0;
+border-right:0;
+	border-bottom:2px green solid;
+  outline: 0;
+ 
+  height: 30px;
+}
+.move-down{
+	position:absolute;
+	bottom:0px;
+	/*opacity: .5;*/
+	background-color:rgba(0,0,0,.6);
+	padding: 10px;
+	margin-left: 0px;
+
+}
+.form{
+	border-top-right-radius:5px;
+	box-shadow: 0 0 2px rbga(0,0,0,.2);
+}
+.side-nav{
+	height: 40px;
+	background-color:dark;
+	padding-top:5px;
+	padding-bottom: 5px;
+	margin:5px 0 5px 0;
+}
+.side-nav:hover{
+	background-color: rgba(0,0,0,.5);
+	transition: .5s;
+
+}
